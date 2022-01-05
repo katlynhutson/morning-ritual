@@ -16,6 +16,7 @@ function App() {
 			<GoodMorning />
 			{/* <Advice />
 			<BackUpAdvice /> */}
+			<Gratefuls />
 		</>
 	);
 }
