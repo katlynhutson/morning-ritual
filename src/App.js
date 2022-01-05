@@ -7,10 +7,14 @@ import Gratefuls from './Components/Gratefuls/Gratefuls';
 
 function App() {
 	return (
-		<div>
-			<Nav />
+		<>
+			<header>
+				<h1>morning ritual</h1>
+				<Nav />
+			</header>
 			<GoodMorning />
-		</div>
+			<Advice />
+		</>
 	);
 }
 

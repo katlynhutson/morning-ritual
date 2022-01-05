@@ -1,5 +1,5 @@
 function GoodMorning(props) {
-	return <div></div>;
+	return <h2>good morning</h2>;
 }
 
 export default GoodMorning;
