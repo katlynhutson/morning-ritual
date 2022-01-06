@@ -1,0 +1,35 @@
+.list-bg {
+	background-color: var(--orange);
+	height: 100vh;
+	width: 100vw;
+}
+
+.gratitude-list {
+	margin-left: 11rem;
+	margin-right: 11rem;
+	padding-top: 7rem;
+	font-size: 1.5rem;
+}
+
+form {
+	text-align: center;
+}
+
+form label {
+	margin-right: 1rem;
+}
+
+form .button {
+	margin-left: 1rem;
+}
+
+.gratitude-list ul {
+	list-style: decimal;
+	margin-left: 1rem;
+	padding-left: 1rem;
+}
+
+.gratitude-list li {
+	padding-left: 1rem;
+	margin-bottom: 1.25rem;
+}

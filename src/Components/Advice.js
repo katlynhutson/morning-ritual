@@ -18,8 +18,8 @@ function Advice(props) {
 	}
 
 	return (
-		<div>
-			<p>{advice.slip.advice}</p>
+		<div className='advice-container'>
+			<p className='advice-quote'>{`"${advice.slip.advice}"`}</p>
 		</div>
 	);
 }

@@ -2,7 +2,7 @@ header {
 	display: grid;
 	grid-template-rows: 2fr 1fr;
 	grid-template-columns: repeat(3 1fr);
-	margin-bottom: 15rem;
+	background-color: var(--gray);
 }
 
 .title {
@@ -10,6 +10,7 @@ header {
 	grid-column: 2 / span 1;
 	text-align: center;
 	justify-content: center;
+	color: var(--brown);
 }
 
 nav {
@@ -43,4 +44,9 @@ nav ul {
 nav li {
 	text-align: center;
 	justify-content: center;
+}
+
+a {
+	color: var(--teal);
+	text-decoration: none;
 }

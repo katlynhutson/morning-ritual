@@ -1,9 +1,11 @@
 function GoodMorning(props) {
 	return (
-		<div className='goodmorning'>
-			<p className='go'>go</p>
-			<p className='od'>od</p>
-			<p className='morning'>morning</p>
+		<div className='gm-container'>
+			<div className='goodmorning'>
+				<p className='goo'>goo</p>
+				<p className='d'>d</p>
+				<p className='morning'>morning</p>
+			</div>
 		</div>
 	);
 }

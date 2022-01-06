@@ -4,8 +4,8 @@ function BackUpAdvice(props) {
 	const random = Math.floor(Math.random() * (adviceData.length - 1));
 
 	return (
-		<div>
-			<p>{adviceData[random].slip.advice}</p>
+		<div className='advice-container'>
+			<p className='advice-quote'>{`"${adviceData[random].slip.advice}"`}</p>
 		</div>
 	);
 }

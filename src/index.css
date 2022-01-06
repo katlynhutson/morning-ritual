@@ -1,3 +1,15 @@
-/* * {
-	border: solid red 1px;
-} */
+html {
+	background-color: var(--gray);
+}
+
+body {
+	margin: 0px;
+}
+
+:root {
+	--brown: rgb(71, 56, 49);
+	--gray: rgb(225, 223, 224);
+	--orange: rgb(213, 99, 45);
+	--aqua: rgb(80, 207, 214);
+	--teal: rgb(12, 109, 118);
+}

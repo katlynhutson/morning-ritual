@@ -16,8 +16,15 @@ function Form(props) {
 
 	return (
 		<form onSubmit={handleSubmit}>
-			<input type='text' onChange={handleChange} value={newGrateful} />
-			<input type='submit' value='Add Grateful' />
+			<label for='gratefuls'>I am grateful for</label>
+			<input
+				type='text'
+				onChange={handleChange}
+				value={newGrateful}
+				id='gratefuls'
+			/>
+
+			<input type='submit' value='+' className='button' />
 		</form>
 	);
 }
