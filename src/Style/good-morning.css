@@ -6,7 +6,7 @@
 	color: var(--orange);
 
 	justify-content: center;
-	padding-top: 15rem;
+	padding-top: 4rem;
 }
 
 .goo {
@@ -40,7 +40,7 @@
 }
 
 /* I used the CSS mockup from week one as a reference on styling the background image */
-.gm-container {
+/* .gm-container {
 	height: 100vh;
 	background-image: url('../images/good-morning.jpg');
 	background-size: cover;
@@ -51,4 +51,4 @@
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-position: bottom 0px right 0px;
-}
+} */
