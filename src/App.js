@@ -1,7 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
 
-import Nav from './Components/Nav';
+import './Style/header.css';
+import './Style/good-morning.css';
 
+import Nav from './Components/Nav';
 import GoodMorning from './Components/GoodMorning';
 // import Advice from './Components/Advice';
 import BackUpAdvice from './BackUpComponent/BackUpAdvice';
