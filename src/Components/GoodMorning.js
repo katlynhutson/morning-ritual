@@ -1,5 +1,11 @@
 function GoodMorning(props) {
-	return <h2>good morning</h2>;
+	return (
+		<div className='goodmorning'>
+			<p className='go'>go</p>
+			<p className='od'>od</p>
+			<p className='morning'>morning</p>
+		</div>
+	);
 }
 
 export default GoodMorning;

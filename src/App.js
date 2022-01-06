@@ -11,7 +11,7 @@ function App() {
 	return (
 		<>
 			<header>
-				<h1>morning ritual</h1>
+				<h1 className='title'>morning ritual</h1>
 				<Nav />
 			</header>
 			<Routes>
