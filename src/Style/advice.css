@@ -1,7 +1,16 @@
 .advice-quote {
 	text-align: center;
-	margin-right: 15rem;
-	margin-left: 15rem;
-	font-size: 3rem;
+
+	font-size: 2rem;
 	color: var(--orange);
+
+	padding: 1rem;
+}
+
+.advice-container {
+	background-color: var(--transparent-gray);
+	margin-top: 10rem;
+	margin-right: 10rem;
+	margin-left: 10rem;
+	border-radius: 1rem;
 }

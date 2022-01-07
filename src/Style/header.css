@@ -1,8 +1,7 @@
 header {
 	display: grid;
-	grid-template-rows: 2fr 1fr;
+	grid-template-rows: 3fr 1fr;
 	grid-template-columns: repeat(3 1fr);
-	/* background-color: var(--teal); */
 }
 
 .title {
@@ -10,13 +9,17 @@ header {
 	grid-column: 2 / span 1;
 	text-align: center;
 	justify-content: center;
-	color: var(--gray);
+	color: var(--transparent-gray);
+	font-size: 4rem;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: var(--teal);
+	padding-bottom: 0;
 }
 
 nav {
 	grid-row: 2 / span 1;
 	grid-column: 1 / span 3;
-	/* background-color: var(--gray); */
+	background-color: var(--transparent-gray);
 }
 
 nav ul {
@@ -52,4 +55,5 @@ nav li {
 a {
 	color: var(--brown);
 	text-decoration: none;
+	font-size: 1.5rem;
 }

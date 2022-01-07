@@ -16,12 +16,13 @@ function Form(props) {
 
 	return (
 		<form onSubmit={handleSubmit}>
-			<label for='gratefuls'>I am grateful for</label>
+			<label htmlFor='gratefuls'>I am grateful for ...</label>
 			<input
 				type='text'
 				onChange={handleChange}
 				value={newGrateful}
 				id='gratefuls'
+				className='textbox'
 			/>
 
 			<input type='submit' value='+' className='button' />

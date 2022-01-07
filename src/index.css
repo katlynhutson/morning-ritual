@@ -1,14 +1,9 @@
-/* html {
-	background-color: var(--gray);
-} */
 body {
-	height: 100vh;
 	background-image: url('./images/good-morning.jpg');
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 }
@@ -23,4 +18,6 @@ body {
 	--orange: rgb(213, 99, 45);
 	--aqua: rgb(80, 207, 214);
 	--teal: rgb(12, 109, 118);
+	--transparent-gray: rgb(225, 223, 224, 0.4);
+	--transparent-aqua: rgb(80, 207, 214, 0.4);
 }

@@ -1,29 +1,67 @@
 .gratitude-list {
 	margin-left: 11rem;
 	margin-right: 11rem;
-	padding-top: 7rem;
+	margin-top: 7rem;
 	font-size: 1.5rem;
+	background-color: var(--transparent-gray);
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: var(--brown);
+	border-radius: 7px;
 }
 
 form {
-	text-align: center;
+	text-align: left;
+	margin: 1rem;
+	border-radius: 7px;
+	padding: 1rem 1rem 1rem 2rem;
+	background-color: var(--transparent-aqua);
+	display: flex;
+	flex-flow: column;
 }
 
 form label {
 	margin-right: 1rem;
+	margin-bottom: 1rem;
 }
 
 form .button {
-	margin-left: 1rem;
+	margin-top: 1rem;
+	width: 25px;
+	border: none;
+	background-color: var(--brown);
+	color: var(--gray);
+	text-decoration: none;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1rem;
+	text-align: center;
+}
+
+form .textbox {
+	width: 100%;
+	padding: 12px 12px 2px 12px;
+
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid var(--brown);
+	color: var(--brown);
+	background-color: var(--transparent-gray);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.25rem;
 }
 
 .gratitude-list ul {
-	list-style: decimal;
 	margin-left: 1rem;
 	padding-left: 1rem;
+	display: grid;
+	grid-template-rows: repeat(auto-fill, 1fr);
 }
 
 .gratitude-list li {
 	padding-left: 1rem;
+	padding-right: 2rem;
 	margin-bottom: 1.25rem;
+	display: flex;
+	flex-wrap: wrap;
 }

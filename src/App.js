@@ -21,19 +21,18 @@ function App() {
 				<h1 className='title'>morning ritual</h1>
 				<Nav />
 			</header>
-			<main>
-				<Routes>
-					<Route path='/' element={<GoodMorning />} />
-					{/* <Route path='/advice' element={<Advice />} /> */}
-					<Route path='/advice' element={<BackUpAdvice />} />
-					<Route
-						path='/gratefuls'
-						element={
-							<Gratefuls gratefuls={gratefuls} setGratefuls={setGratefuls} />
-						}
-					/>
-				</Routes>
-			</main>
+
+			<Routes>
+				<Route path='/' element={<GoodMorning />} />
+				{/* <Route path='/advice' element={<Advice />} /> */}
+				<Route path='/advice' element={<BackUpAdvice />} />
+				<Route
+					path='/gratefuls'
+					element={
+						<Gratefuls gratefuls={gratefuls} setGratefuls={setGratefuls} />
+					}
+				/>
+			</Routes>
 		</>
 	);
 }
