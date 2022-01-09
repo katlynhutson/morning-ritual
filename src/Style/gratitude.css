@@ -8,6 +8,7 @@
 	padding-bottom: 1rem;
 	color: var(--brown);
 	border-radius: 7px;
+	inline-size: 75%;
 }
 
 form {
@@ -54,14 +55,14 @@ form .textbox {
 .gratitude-list ul {
 	margin-left: 1rem;
 	padding-left: 1rem;
-	display: grid;
-	grid-template-rows: repeat(auto-fill, 1fr);
+	overflow-wrap: break-word;
+	inline-size: 75%;
 }
 
 .gratitude-list li {
 	padding-left: 1rem;
 	padding-right: 2rem;
 	margin-bottom: 1.25rem;
-	display: flex;
-	flex-wrap: wrap;
+	list-style: decimal;
+	hyphens: auto;
 }
