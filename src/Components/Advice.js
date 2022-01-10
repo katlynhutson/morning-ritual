@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 function Advice(props) {
 	const url = `https://api.adviceslip.com/advice`;
 	const [advice, setAdvice] = useState(null);
+	// Esin helped with trouble-shooting the error message
 	const [error, setError] = useState(null);
 
 	useEffect(() => {

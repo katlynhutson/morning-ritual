@@ -11,7 +11,7 @@ body {
 	background-repeat: no-repeat;
 	background-image: center;
 	margin: 0px;
-	font-family: 'EB Garamond', serif;
+	font-family: 'EB Garamond', 'Times New Roman', Times, serif;
 }
 
 /* I used the CSS mockup from week one as a reference on styling the background image */
