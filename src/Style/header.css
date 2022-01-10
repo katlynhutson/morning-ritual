@@ -13,6 +13,8 @@ header {
 	padding-bottom: 0;
 	grid-column: 2 / span 1;
 	grid-row: 1 / span 1;
+	background-color: var(--transparent-gray);
+	border-radius: 7px;
 }
 
 nav {
