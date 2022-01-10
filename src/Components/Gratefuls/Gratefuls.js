@@ -4,8 +4,8 @@ import List from './List';
 function Gratefuls(props) {
 	return (
 		<div className='gratitude-list'>
-			<Form gratefuls={props.gratefuls} setGratefuls={props.setGratefuls} />
-			<List gratefuls={props.gratefuls} />
+			<Form />
+			<List />
 		</div>
 	);
 }
