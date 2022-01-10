@@ -19,6 +19,7 @@ function App() {
 		<>
 			<header>
 				<h1 className='title'>morning ritual</h1>
+
 				<Nav />
 			</header>
 
