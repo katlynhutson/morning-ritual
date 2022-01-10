@@ -12,9 +12,13 @@ import Advice from './Components/Advice';
 // import BackUpAdvice from './BackUpComponent/BackUpAdvice';
 import Gratefuls from './Components/Gratefuls/Gratefuls';
 
-function App() {
-	// Julio and Tyler advised me to lift state to store gratitude list
+import { GratefulContext } from './GratefulContext';
+
+export default function App() {
+	// Julio and Tyler advised me to lift state to store gratitude list -- Esin and Tyler suggested using Context to avoid props drilling
+
 	const [gratefuls, setGratefuls] = useState([]);
+
 	return (
 		<>
 			<header>
@@ -30,12 +34,12 @@ function App() {
 				<Route
 					path='/gratefuls'
 					element={
-						<Gratefuls gratefuls={gratefuls} setGratefuls={setGratefuls} />
+						<GratefulContext.Provider value={{ gratefuls, setGratefuls }}>
+							<Gratefuls />
+						</GratefulContext.Provider>
 					}
 				/>
 			</Routes>
 		</>
 	);
 }
-
-export default App;

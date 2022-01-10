@@ -1,7 +1,12 @@
+import { useContext } from 'react';
+
+import { GratefulContext } from '../../GratefulContext';
+
 function List(props) {
+	const { gratefuls } = useContext(GratefulContext);
 	return (
 		<ul>
-			{props.gratefuls.map((ele, i) => {
+			{gratefuls.map((ele, i) => {
 				return <li key={i}>{ele}</li>;
 			})}
 		</ul>

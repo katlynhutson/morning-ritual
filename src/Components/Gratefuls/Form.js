@@ -1,16 +1,19 @@
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 
-function Form(props) {
+import { GratefulContext } from '../../GratefulContext';
+
+export default function Form(props) {
 	const [newGrateful, setNewGrateful] = useState('');
+	const { gratefuls, setGratefuls } = useContext(GratefulContext);
 	function handleChange(event) {
 		setNewGrateful(event.target.value);
 	}
 
 	function handleSubmit(event) {
 		event.preventDefault();
-		const tempGratefuls = [...props.gratefuls];
+		const tempGratefuls = [...gratefuls];
 		tempGratefuls.push(newGrateful);
-		props.setGratefuls(tempGratefuls);
+		setGratefuls(tempGratefuls);
 		setNewGrateful('');
 	}
 
@@ -29,7 +32,5 @@ function Form(props) {
 		</form>
 	);
 }
-
-export default Form;
 
 // I referenced the to do list react lab while making this component
