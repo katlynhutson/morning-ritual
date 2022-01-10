@@ -9,13 +9,19 @@ header {
 	grid-column: 2 / span 1;
 	text-align: center;
 	justify-content: center;
-	color: var(--transparent-gray);
+	color: var(--brown);
 	font-size: 4rem;
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: var(--teal);
+	font-weight: 500;
 	padding-bottom: 0;
 }
 
+/* use the text stroke only when supported. --> used this site as a resource https://css-tricks.com/adding-stroke-to-web-text/ */
+@supports (-webkit-text-stroke: 2px var(--teal)) {
+	.title {
+		-webkit-text-stroke: 2px var(--teal);
+		-webkit-text-fill-color: var(--transparent-gray);
+	}
+}
 nav {
 	grid-row: 2 / span 1;
 	grid-column: 1 / span 3;

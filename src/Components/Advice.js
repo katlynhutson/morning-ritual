@@ -3,28 +3,34 @@ import { useState, useEffect } from 'react';
 function Advice(props) {
 	const url = `https://api.adviceslip.com/advice`;
 	const [advice, setAdvice] = useState(null);
-
 	const [error, setError] = useState(null);
 
 	useEffect(() => {
 		fetch(url)
-			.then((res) => res.json())
+			.then((res) => {
+				return res.json();
+			})
 			.then((res) => {
 				setAdvice(res);
-				setError(false);
 			})
-			.catch(setError(true));
+			.catch((err) => setError(true));
 	}, []);
 
-	if (!advice) {
-		return <p className='advice-quote'>Loading...</p>;
+	if (!advice && !error) {
+		return (
+			<div className='advice-container'>
+				<p className='advice-quote'>Loading...</p>
+			</div>
+		);
 	}
 
-	if (error === true) {
+	if (error && !advice) {
 		return (
-			<p className='advice-quote'>
-				"Sometimes it's best to ignore other people's advice."
-			</p>
+			<div className='advice-container'>
+				<p className='advice-quote'>
+					"Sometimes it's best to ignore other people's advice."
+				</p>
+			</div>
 		);
 	}
 

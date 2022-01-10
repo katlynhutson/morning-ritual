@@ -1,3 +1,6 @@
+/* bring in normalize.css styles --> Advice from Esin*/
+@import-normalize;
+
 body {
 	background-image: url('./images/good-morning.jpg');
 	background-size: cover;
@@ -7,13 +10,11 @@ body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-image: center;
+	margin: 0px;
+	font-family: 'EB Garamond', serif;
 }
 
 /* I used the CSS mockup from week one as a reference on styling the background image */
-
-body {
-	margin: 0px;
-}
 
 /* I generated these colors by pulling colors from the background image using this website --> https://coolors.co/b7b3a1-e0607e-353531-01baef-4f7cac */
 :root {
@@ -22,7 +23,7 @@ body {
 	--orange: rgb(213, 99, 45);
 	--aqua: rgb(80, 207, 214);
 	--teal: rgb(12, 109, 118);
-	--transparent-gray: rgb(225, 223, 224, 0.5);
-	--transparent-aqua: rgb(80, 207, 214, 0.5);
-	--transparent-orange: rgb(213, 99, 45, 0.5);
+	--transparent-gray: rgb(225, 223, 224, 0.7);
+	--transparent-aqua: rgb(80, 207, 214, 0.7);
+	--transparent-orange: rgb(213, 99, 45, 0.7);
 }
