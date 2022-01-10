@@ -1,1 +1,15 @@
-this is my read me
+# Morning Ritual
+
+
+## Description
+
+
+## Technologies Used
+
+
+## Installation Instructions
+
+ 
+## Contribution Guidlines
+
+
