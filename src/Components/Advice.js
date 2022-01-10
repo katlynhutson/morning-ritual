@@ -4,17 +4,28 @@ function Advice(props) {
 	const url = `https://api.adviceslip.com/advice`;
 	const [advice, setAdvice] = useState(null);
 
+	const [error, setError] = useState(null);
+
 	useEffect(() => {
 		fetch(url)
 			.then((res) => res.json())
 			.then((res) => {
 				setAdvice(res);
+				setError(false);
 			})
-			.catch(console.error);
+			.catch(setError(true));
 	}, []);
 
 	if (!advice) {
-		return <p>Be patient! I'm thinking...</p>;
+		return <p className='advice-quote'>Loading...</p>;
+	}
+
+	if (error === true) {
+		return (
+			<p className='advice-quote'>
+				"Sometimes it's best to ignore other people's advice."
+			</p>
+		);
 	}
 
 	return (
