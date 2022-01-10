@@ -33,7 +33,7 @@ form .button {
 	background-color: var(--brown);
 	color: var(--gray);
 	text-decoration: none;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: 'EB Garamond', 'Times New Roman', Times, serif;
 	font-size: 1rem;
 	text-align: center;
 }
@@ -48,7 +48,7 @@ form .textbox {
 	border-bottom: 2px solid var(--brown);
 	color: var(--brown);
 	background-color: var(--transparent-gray);
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: 'EB Garamond', 'Times New Roman', Times, serif;
 	font-size: 1.25rem;
 }
 
@@ -56,7 +56,6 @@ form .textbox {
 	margin-left: 1rem;
 	padding-left: 2rem;
 	overflow-wrap: break-word;
-	inline-size: 75%;
 }
 
 .gratitude-list li {
