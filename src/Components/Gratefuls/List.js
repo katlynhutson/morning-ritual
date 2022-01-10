@@ -9,3 +9,5 @@ function List(props) {
 }
 
 export default List;
+
+// I referenced the to do list react lab while making this component

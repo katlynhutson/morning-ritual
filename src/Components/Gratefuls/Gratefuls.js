@@ -11,3 +11,5 @@ function Gratefuls(props) {
 }
 
 export default Gratefuls;
+
+// I referenced the to do list react lab while making this component

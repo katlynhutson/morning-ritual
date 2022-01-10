@@ -3,16 +3,16 @@
 	grid-template-rows: repeat(2 1fr);
 	grid-template-columns: repeat(2 1fr);
 	font-size: 7.5rem;
-	color: var(--orange);
+	color: var(--brown);
 
 	justify-content: center;
 
 	background-color: var(--transparent-gray);
 	margin-top: 5rem;
-	margin-left: 10rem;
-	margin-right: 10rem;
+	/* margin-left: 10rem;
+	margin-right: 10rem; */
 	padding-bottom: 1rem;
-	border-radius: 4rem;
+	/* border-radius: 4rem; */
 }
 
 .goo {
@@ -39,22 +39,17 @@
 	grid-row: 2 / span 1;
 	grid-column: 2 / span 1;
 
-	margin-top: -40px;
+	margin-top: -50px;
 	margin-left: 1px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 }
 
-/* I used the CSS mockup from week one as a reference on styling the background image */
-/* .gm-container {
-	height: 100vh;
-	background-image: url('../images/good-morning.jpg');
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	background-position: bottom 0px right 0px;
-} */
+@media (max-width: 600px) {
+	.goodmorning {
+		font-size: 3rem;
+	}
+	.morning {
+		margin-top: -5px;
+	}
+}
