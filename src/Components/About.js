@@ -4,7 +4,7 @@ function About(props) {
 			<div className='about-title'>
 				<h2>about</h2>
 			</div>
-			<div className='about-statement'>
+			<div className='slogan'>
 				<p>Start your day off well using morning routiune.</p>
 			</div>
 			<div className='about-statement'>
@@ -32,7 +32,7 @@ function About(props) {
 			</div>
 			<div className='profile-statement'>
 				<p>
-					Morning ritual was created by Katlyn Hutson in January of 2022. Katlyn
+					Morning Ritual was created by Katlyn Hutson in January of 2022. Katlyn
 					recieved her Bachelor of Arts in Psychological and Brain Sciences from
 					Washington University in St. Louis in December of 2019.
 				</p>

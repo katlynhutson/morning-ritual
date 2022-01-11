@@ -33,6 +33,7 @@
 	margin: 1rem;
 	border-radius: 7px;
 	padding: 1rem;
+	text-align: center;
 }
 
 .profile-statement {
@@ -40,14 +41,33 @@
 	margin: 1rem;
 	border-radius: 7px;
 	padding: 1rem;
+	text-align: center;
 }
 
 .profile-statement p {
 	font-size: 1rem;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .about-statement p {
 	font-size: 1rem;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.slogan {
+	background-color: var(--transparent-orange);
+	margin: 1rem;
+	border-radius: 7px;
+	padding: 1rem;
+	text-align: center;
+}
+
+.slogan p {
+	font-size: 1rem;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 @media (max-width: 600px) {
