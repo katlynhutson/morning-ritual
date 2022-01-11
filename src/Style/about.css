@@ -1,0 +1,59 @@
+.about-box {
+	margin-left: 11rem;
+	margin-right: 11rem;
+	margin-top: 7rem;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	background-color: var(--transparent-gray);
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: var(--brown);
+	border-radius: 7px;
+}
+
+.about-title {
+	text-align: left;
+	margin: 1rem;
+	border-radius: 7px;
+	padding: 1rem;
+	background-color: var(--transparent-aqua);
+	display: flex;
+	flex-flow: column;
+}
+
+.about-title h2 {
+	text-align: center;
+	margin: 0;
+	font-weight: 400;
+	font-size: 1.5rem;
+}
+
+.about-statement {
+	background-color: var(--transparent-orange);
+	margin: 1rem;
+	border-radius: 7px;
+	padding: 1rem;
+}
+
+.profile-statement {
+	background-color: var(--transparent-aqua);
+	margin: 1rem;
+	border-radius: 7px;
+	padding: 1rem;
+}
+
+.profile-statement p {
+	font-size: 1rem;
+}
+
+.about-statement p {
+	font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+	.about-box {
+		margin-left: 1rem;
+		margin-right: 1rem;
+		margin-top: 5rem;
+	}
+}

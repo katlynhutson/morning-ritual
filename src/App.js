@@ -5,12 +5,16 @@ import './Style/header.css';
 import './Style/good-morning.css';
 import './Style/advice.css';
 import './Style/gratitude.css';
+import './Style/mindful.css';
+import './Style/about.css';
 
 import Nav from './Components/Nav';
 import GoodMorning from './Components/GoodMorning';
 import Advice from './Components/Advice';
 // import BackUpAdvice from './BackUpComponent/BackUpAdvice';
 import Gratefuls from './Components/Gratefuls/Gratefuls';
+import Mindfulness from './Components/Mindfulness';
+import About from './Components/About';
 
 import { GratefulContext } from './GratefulContext';
 
@@ -39,6 +43,8 @@ export default function App() {
 						</GratefulContext.Provider>
 					}
 				/>
+				<Route path='/mindfulness' element={<Mindfulness />} />
+				<Route path='/about' element={<About />} />
 			</Routes>
 		</>
 	);
