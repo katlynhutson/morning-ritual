@@ -10,8 +10,8 @@ function About(props) {
 			<div className='about-statement'>
 				<p>
 					Psychological studies have shown that adopting a grateful disposition
-					improves overall happiness. List what you are grateful every day and
-					find out.
+					improves overall happiness. List what you are grateful for every day
+					and find out.
 				</p>
 			</div>
 			<div className='about-statement'>
