@@ -18,14 +18,14 @@ export default function Form(props) {
 	}
 
 	return (
-		<form onSubmit={handleSubmit}>
+		<form onSubmit={handleSubmit} className='gratitude-form'>
 			<label htmlFor='gratefuls'>I am grateful for ...</label>
 			<input
 				type='text'
 				onChange={handleChange}
 				value={newGrateful}
 				id='gratefuls'
-				className='textbox'
+				className='gratitude-textbox'
 			/>
 
 			<input type='submit' value='+' className='button' />

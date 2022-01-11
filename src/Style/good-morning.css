@@ -47,8 +47,10 @@
 @media (max-width: 600px) {
 	.goodmorning {
 		font-size: 3rem;
+		margin-bottom: 5rem;
 	}
 	.morning {
 		margin-top: -5px;
+		padding-bottom: 0rem;
 	}
 }
